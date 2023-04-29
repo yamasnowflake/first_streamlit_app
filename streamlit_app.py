@@ -48,4 +48,4 @@ streamlit.text(my_data_row)
 #Allow the end user to add a fruit to the list
 add_my_fruit = streamlit.text_input('what fruit add?')
 #my_cur.execute("INSERT INTO fruit_load_list(FRUIT_NAME) VALUES " & add_my_fruit)
-streamlit.text("Thanks for adding " & add_my_fruit)
+streamlit.text("Thanks for adding " + add_my_fruit)
